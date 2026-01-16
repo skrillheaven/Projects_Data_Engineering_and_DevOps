@@ -87,3 +87,4 @@ This project focuses on architectural design, service integration,
 and operational behavior rather than local code implementation.
 It reflects real-world scenarios where teams work with managed
 platforms and distributed services.
+--
