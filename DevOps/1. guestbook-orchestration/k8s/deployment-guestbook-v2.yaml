@@ -1,3 +1,7 @@
+# Guestbook frontend deployment (v2)
+# Updated version of the application used to demonstrate
+# rolling updates and rollback behavior in Kubernetes.
+# This deployment replaces v1 using the same Deployment name.
 apiVersion: apps/v1
 kind: Deployment
 metadata:

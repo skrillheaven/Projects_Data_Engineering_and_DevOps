@@ -1,3 +1,6 @@
+# Kubernetes Service for Guestbook frontend
+# Exposes the Guestbook application internally within the cluster
+# and allows access to the frontend pods via label selectors.
 apiVersion: v1
 kind: Service
 metadata:

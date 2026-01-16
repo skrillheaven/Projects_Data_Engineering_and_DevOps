@@ -1,3 +1,6 @@
+# Kubernetes Service for Redis master
+# Provides stable networking and service discovery
+# for the Redis master pod within the cluster.
 apiVersion: v1
 kind: Service
 metadata:

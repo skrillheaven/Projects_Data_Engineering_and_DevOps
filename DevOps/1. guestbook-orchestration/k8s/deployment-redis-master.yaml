@@ -1,27 +1,29 @@
+# Redis master deployment
+# Acts as the primary datastore for the Guestbook application.
+# Handles write operations and serves as the source of truth
+# for Redis replication.
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: redis-slave
+  name: redis-master
   labels:
     app: redis
-    role: slave
+    role: master
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: redis
-      role: slave
+      role: master
   template:
     metadata:
       labels:
         app: redis
-        role: slave
+        role: master
     spec:
       containers:
-      - name: redis-slave
+      - name: redis-master
         image: redis:5.0.5
-        command: ["/bin/sh"]
-        args: ["-c","redis-server --slaveof redis-master 6379"]
         ports:
         - name: redis-server
           containerPort: 6379

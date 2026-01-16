@@ -1,25 +1,31 @@
+# Redis slave deployment
+# Replicates data from the Redis master.
+# Enables horizontal scaling for read operations
+# and improves application resilience.
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: redis-master
+  name: redis-slave
   labels:
     app: redis
-    role: master
+    role: slave
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: redis
-      role: master
+      role: slave
   template:
     metadata:
       labels:
         app: redis
-        role: master
+        role: slave
     spec:
       containers:
-      - name: redis-master
+      - name: redis-slave
         image: redis:5.0.5
+        command: ["/bin/sh"]
+        args: ["-c","redis-server --slaveof redis-master 6379"]
         ports:
         - name: redis-server
           containerPort: 6379

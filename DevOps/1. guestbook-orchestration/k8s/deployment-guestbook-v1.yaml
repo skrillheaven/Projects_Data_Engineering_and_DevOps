@@ -1,3 +1,8 @@
+# Guestbook frontend deployment (v1)
+# Initial version of the application.
+# Demonstrates a basic Kubernetes Deployment with
+# resource requests/limits and rolling update strategy.
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
