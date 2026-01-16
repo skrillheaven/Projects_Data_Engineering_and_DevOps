@@ -1,3 +1,8 @@
+# Guestbook application - Docker image (v1)
+# Initial version of the frontend application.
+# Uses a multi-stage build to reduce final image size
+# and demonstrate production-ready container practices.
+
 # Please choose from the below set of Docker commands to complete your Dockerfile:
 
 # COPY

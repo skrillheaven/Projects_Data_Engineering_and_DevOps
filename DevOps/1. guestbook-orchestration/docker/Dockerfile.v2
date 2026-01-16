@@ -1,3 +1,7 @@
+# Guestbook application - Docker image (v2)
+# Updated version of the frontend application.
+# Used to demonstrate rolling updates and versioned deployments
+# within a Kubernetes environment.
 FROM golang:1.18 as builder
 
 WORKDIR /app
