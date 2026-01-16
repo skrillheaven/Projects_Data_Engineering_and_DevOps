@@ -43,6 +43,23 @@ concepts, including deployments, autoscaling, rolling updates, and rollback.
 🔗 Project README:  
 [View project documentation](DevOps/1.%20guestbook-orchestration)
 
+#### 2. Microservices Application using Serverless Architecture
+Project demonstrating the development and deployment of a
+microservices-based application using a serverless architecture.
+
+The system is composed of multiple backend services deployed
+independently and a frontend application that consumes and integrates
+their APIs.
+
+**Key technologies:** Serverless, Microservices, REST APIs, Cloud Platform
+
+📁 Path:  
+`DevOps/2. microservices-serverless-application/`
+
+🔗 Project documentation:  
+[View project documentation](DevOps/2.%20microservices-serverless-application)
+
+
 ---
 
 ### 📊 Data Engineering *(coming soon)*
