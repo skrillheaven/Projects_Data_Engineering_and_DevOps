@@ -62,16 +62,32 @@ their APIs.
 
 ---
 
-### 📊 Data Engineering *(coming soon)*
+### 📊 Data Engineering
 
-Planned projects will focus on:
+#### 1. Web Scraping – Top 10 Largest Economies by GDP (IMF)
+Data engineering project focused on extracting and processing economic
+data from an external web source using Python.
+
+The project retrieves GDP data reported by the International Monetary
+Fund (IMF), cleans and transforms the dataset, and produces a ranked
+list of the top 10 largest economies by GDP.
+
+**Key technologies:** Python, Web Scraping, Pandas, Data Processing
+
+📁 Path:  
+`DataEngineering/1. web-scraping-gdp-imf/`
+
+🔗 Project documentation:  
+[View project documentation](DataEngineering/1.%20web-scraping-gdp-imf)
+
+---
+
+Planned future projects will expand into:
 
 - Data pipelines and ETL workflows
 - Batch and streaming processing
 - Data modeling and storage
 - Workflow orchestration and monitoring
-
----
 
 ## Technologies & Focus Areas
 
