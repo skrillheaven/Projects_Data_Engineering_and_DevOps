@@ -80,6 +80,17 @@ list of the top 10 largest economies by GDP.
 🔗 Project documentation:  
 [View project documentation](DataEngineering/1.%20web-scraping-gdp-imf)
 
+#### 2. ETL Pipeline – Multi-format Data Processing
+Implementation of a complete ETL pipeline processing CSV, JSON,
+and XML data sources with transformation and logging.
+
+**Key technologies:** Python, Pandas, ETL, Data Processing
+
+📁 Path:  
+`DataEngineering/2. etl-multi-format-pipeline/`
+
+🔗 Project documentation:  
+[View project documentation](DataEngineering/2.%20etl-multi-format-pipeline)
 ---
 
 Planned future projects will expand into:
