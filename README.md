@@ -91,10 +91,10 @@ and XML data sources with transformation and logging.
 
 🔗 Project documentation:  
 [View project documentation](DataEngineering/2-etl-multi-format-pipeline)
----
+
 
 Planned future projects will expand into:
-
+---
 - Data pipelines and ETL workflows
 - Batch and streaming processing
 - Data modeling and storage
