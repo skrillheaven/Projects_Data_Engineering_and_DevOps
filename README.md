@@ -105,10 +105,10 @@ and storing the results locally for analysis.
 **Key technologies:** Python, Requests, BeautifulSoup, REST APIs, Pandas
 
 📁 Path:  
-`Data Engineering/3_webscraping_movies/`
+`Data Engineering/3_web_scraping_movies/`
 
 🔗 Project README:  
-[View project documentation](Data_Engineering/3_webscraping_movies)
+[View project documentation](Data_Engineering/3_web_scraping_movies)
 
 
 
