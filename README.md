@@ -92,6 +92,25 @@ and XML data sources with transformation and logging.
 🔗 Project documentation:  
 [View project documentation](Data_Engineering/2-etl-multi-format-pipeline)
 
+#### 3. Web Scraping and Extracting Data using APIs
+Project demonstrating two common data ingestion techniques used in
+data engineering workflows:
+
+- Web scraping from HTML sources
+- Data extraction using public APIs
+
+The project includes ETL logic for retrieving data, processing it,
+and storing the results locally for analysis.
+
+**Key technologies:** Python, Requests, BeautifulSoup, REST APIs, Pandas
+
+📁 Path:  
+`Data Engineering/3_webscraping_movies/`
+
+🔗 Project README:  
+[View project documentation](Data_Engineering/3_webscraping_movies)
+
+
 
 Planned future projects will expand into:
 ---
