@@ -110,7 +110,22 @@ and storing the results locally for analysis.
 🔗 Project README:  
 [View project documentation](Data_Engineering/3_web_scraping_movies)
 
+#### 4. Accessing Databases using Python
 
+Project demonstrating how Python can interact with relational databases
+as part of a data engineering workflow.
+
+The project creates a SQLite database, loads structured data from a CSV
+file using Pandas, and performs SQL queries to retrieve and manipulate
+the stored information.
+
+**Key technologies:** Python, SQLite3, Pandas, SQL
+
+📁 Path:  
+`Data Engineering/4_accessing_databases_python/`
+
+🔗 Project README:  
+[View project documentation](Data_Engineering/4_accessing_databases_python)
 
 Planned future projects will expand into:
 ---
