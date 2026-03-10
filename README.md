@@ -122,10 +122,10 @@ the stored information.
 **Key technologies:** Python, SQLite3, Pandas, SQL
 
 📁 Path:  
-`Data Engineering/4_accessing_databases_python/`
+`Data Engineering/4_accessing_databases_using_python/`
 
 🔗 Project README:  
-[View project documentation](Data_Engineering/4_accessing_databases_python)
+[View project documentation](Data_Engineering/4_accessing_databases_using_python)
 
 Planned future projects will expand into:
 ---
