@@ -1,0 +1,47 @@
+2026-Mar-13-18:26:31:Preliminaries complete
+Initiating ETL Process
+2026-Mar-13-18:26:34:Data extraction complete.
+Initiating Transformation process.
+2026-Mar-13-18:28:11:Preliminaries complete
+Initiating ETL Process
+2026-Mar-13-18:28:12:Data extraction complete.
+Initiating Transformation process.
+2026-Mar-13-18:29:04:Preliminaries complete
+Initiating ETL Process
+2026-Mar-13-18:29:05:Data extraction complete.
+Initiating Transformation process.
+2026-Mar-13-18:31:17:Preliminaries complete
+Initiating ETL Process
+2026-Mar-13-18:31:18:Data extraction complete.
+Initiating Transformation process.
+2026-Mar-13-18:34:06:Preliminaries complete
+Initiating ETL Process
+2026-Mar-13-18:34:07:Data extraction complete.
+Initiating Transformation process.
+2026-Mar-13-18:34:07:Data transformation complete.
+Initiating loading process.
+2026-Mar-13-18:34:07:Data saved to CSV file.
+2026-Mar-13-18:34:41:Preliminaries complete
+Initiating ETL Process
+2026-Mar-13-18:34:42:Data extraction complete.
+Initiating Transformation process.
+2026-Mar-13-18:34:42:Data transformation complete.
+Initiating loading process.
+2026-Mar-13-18:34:42:Data saved to CSV file.
+2026-Mar-13-18:34:42:SQL Connection initiated.
+2026-Mar-13-18:34:42:Data loaded to Database as table.
+Running the query.
+2026-Mar-13-18:34:42:Process Complete.
+2026-Mar-13-18:36:18:
+----------NEW LOG------------
+Preliminaries complete
+Initiating ETL Process
+2026-Mar-13-18:36:19:Data extraction complete.
+Initiating Transformation process.
+2026-Mar-13-18:36:19:Data transformation complete.
+Initiating loading process.
+2026-Mar-13-18:36:19:Data saved to CSV file.
+2026-Mar-13-18:36:19:SQL Connection initiated.
+2026-Mar-13-18:36:19:Data loaded to Database as table.
+Running the query.
+2026-Mar-13-18:36:19:Process Complete.
