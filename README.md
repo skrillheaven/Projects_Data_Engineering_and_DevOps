@@ -75,10 +75,10 @@ list of the top 10 largest economies by GDP.
 **Key technologies:** Python, Web Scraping, Pandas, Data Processing
 
 📁 Path:  
-`DataEngineering/1-web-scraping-gdp-imf/`
+`DataEngineering/1-web.scraping-gdp-imf/`
 
 🔗 Project documentation:  
-[View project documentation](Data_Engineering/1-web-scraping-gdp-imf)
+[View project documentation](Data_Engineering/1-web.scraping-gdp-imf)
 
 #### 2. ETL Pipeline – Multi-format Data Processing
 Implementation of a complete ETL pipeline processing CSV, JSON,
@@ -126,6 +126,30 @@ the stored information.
 
 🔗 Project README:  
 [View project documentation](Data_Engineering/4_accessing_databases_using_python)
+
+#### 5.ETL Pipeline – GDP Data Processing
+
+Practice project demonstrating the implementation of a complete
+*ETL (Extract, Transform, Load) pipeline* using Python.
+
+The pipeline extracts GDP data from structured sources, applies
+data transformation and cleaning operations, and exports the
+processed dataset into a target format suitable for downstream use.
+
+The project reinforces core data engineering workflow concepts such as:
+
+* Data ingestion from structured files
+* Transformation using Pandas
+* Logging execution steps
+* Exporting processed datasets
+* Organizing ETL scripts following modular structure
+
+**Key technologies:** Python, Pandas, CSV processing, Logging, ETL workflows
+
+📁 Path:
+`Data Engineering/5_etl_gdp_pipeline/`
+🔗 Project README:  
+[View project documentation](Data_Engineering/5_etl_gdp_pipeline/)
 
 Planned future projects will expand into:
 ---
