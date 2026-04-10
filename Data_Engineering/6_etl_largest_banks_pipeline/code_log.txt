@@ -1,0 +1,19 @@
+2026-Apr-01-16:43:31:
+----------NEW LOG------------
+Preliminaries complete
+Initiating ETL Process
+2026-Apr-01-16:43:32:Data extraction complete.
+Initiating Transformation process.
+2026-Apr-01-16:43:32:Data transformation complete.
+Initiating loading process.
+2026-Apr-01-16:43:32:Data saved to CSV file.
+2026-Apr-01-16:43:32:SQL Connection initiated.
+2026-Apr-01-16:43:32:Data loaded to Database as table.
+Running the query.
+2026-Apr-01-16:43:32:
+Query 1 + SELECT * FROM Largest_banks
+2026-Apr-01-16:43:32:
+Query 2 + SELECT AVG(MC_GBP_Billion) FROM Largest_banks 
+2026-Apr-01-16:43:32:
+Query 3 + SELECT name from Largest_banks LIMIT 5
+2026-Apr-01-16:43:32:Process Complete.
