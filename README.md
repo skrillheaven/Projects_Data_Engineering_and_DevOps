@@ -151,6 +151,37 @@ The project reinforces core data engineering workflow concepts such as:
 🔗 Project README:  
 [View project documentation](Data_Engineering/5_etl_gdp_pipeline/)
 
+#### 6. ETL Pipeline – Largest Banks Market Capitalization Dataset
+
+Practice project demonstrating the implementation of a complete
+*ETL (Extract, Transform, Load) pipeline* using Python applied to
+real-world financial market capitalization data from the world's
+largest banks.
+
+The pipeline extracts structured data from a web source, performs
+currency transformation using exchange rate datasets, stores the
+results into CSV and SQLite formats, and executes analytical queries
+over the generated database.
+
+The project reinforces core data engineering workflow concepts such as:
+
+* Web data extraction using BeautifulSoup
+* Data transformation using Pandas and NumPy
+* Multi-currency conversion using external datasets
+* Persisting datasets into CSV and SQLite database tables
+* Executing analytical SQL queries
+* Logging execution stages for pipeline traceability
+
+**Key technologies:** Python, Pandas, NumPy, BeautifulSoup, SQLite3, ETL workflows, Logging
+
+📁 Path:
+`Data Engineering/6_etl_largest_banks_pipeline/`
+
+🔗 Project README:  
+[View project documentation](Data_Engineering/6_etl_largest_banks_pipeline/)
+
+
+
 Planned future projects will expand into:
 ---
 - Data pipelines and ETL workflows
